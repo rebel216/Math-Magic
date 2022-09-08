@@ -1,10 +1,12 @@
 import Calculator from './components/Calculator';
 import './App.css';
 
-const App = () => (
-  <div>
-    <Calculator />
-  </div>
-);
+class App extends Calculator {
+  render() {
+    return (
+      <Calculator />
+    );
+  }
+}
 
 export default App;
