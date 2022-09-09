@@ -17,39 +17,39 @@ button {
   grid-template-areas:
     "result result result result"
     "btn-clear btn-toogle-sign btn-percentage btn-divider"
-    "btn-7 btn-8 btn-9 btn-multiply"
-    "btn-4 btn-5 btn-6 btn-substract"
-    "btn-1 btn-2 btn-3 btn-plus"
-    "btn-0 btn-0 btn-dot btn-equal";
+    "btn-seven btn-eight btn-nine btn-multiply"
+    "btn-four btn-five btn-six btn-substract"
+    "btn-one btn-two btn-three btn-plus"
+    "btn-zero btn-zero btn-dot btn-equal";
 }
 
 .result {
-  background: #858694;
+  background: #050505;
   grid-area: result;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: white;
+  color: rgb(11, 239, 83);
   font-size: 2em;
   padding: 0.3rem;
 }
 
 .btn-light {
-  background: #e0e0e0;
+  background: #9ba9eb;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .btn-accent {
-  background: #f5913e;
+  background: #b0703b;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .btn-zero {
-  grid-area: btn-0;
+  grid-area: btn-zero;
 }
 
 .btn-dot { grid-area: btn-dot; }
@@ -70,20 +70,20 @@ button {
 
 .btn-plus { grid-area: btn-plus; }
 
-.btn-1 { grid-area: btn-1; }
+.btn-one { grid-area: btn-one; }
 
-.btn-2 { grid-area: btn-2; }
+.btn-two { grid-area: btn-two; }
 
-.btn-3 { grid-area: btn-3; }
+.btn-three { grid-area: btn-three; }
 
-.btn-4 { grid-area: btn-4; }
+.btn-four { grid-area: btn-four; }
 
-.btn-5 { grid-area: btn-5; }
+.btn-five { grid-area: btn-five; }
 
-.btn-6 { grid-area: btn-6; }
+.btn-six { grid-area: btn-six; }
 
-.btn-7 { grid-area: btn-7; }
+.btn-seven { grid-area: btn-seven; }
 
-.btn-8 { grid-area: btn-8; }
+.btn-eight { grid-area: btn-eight; }
 
-.btn-9 { grid-area: btn-9; }
+.btn-nine { grid-area: btn-nine; }
