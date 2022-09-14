@@ -1,6 +1,6 @@
 .container {
   font-size: 1.5em;
-  background: #d8cece;
+  background: #d1d1d1;
   width: 36rem;
   height: 28rem;
   padding: 0.125rem;
@@ -20,12 +20,12 @@
 }
 
 .result {
-  background: #3f4adf;
+  background: #858694;
   grid-area: result;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: rgb(233, 170, 170);
+  color: white;
   font-size: 2em;
   padding: 0.3rem;
 }
