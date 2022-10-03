@@ -1,10 +1,6 @@
-button {
-  border: none;
-}
-
 .container {
   font-size: 1.5em;
-  background: #d1d1d1;
+  background: #d8cece;
   width: 36rem;
   height: 28rem;
   padding: 0.125rem;
@@ -24,28 +20,14 @@ button {
 }
 
 .result {
-  background: #050505;
+  background: #3f4adf;
   grid-area: result;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: rgb(11, 239, 83);
+  color: rgb(233, 170, 170);
   font-size: 2em;
   padding: 0.3rem;
-}
-
-.btn-light {
-  background: #9ba9eb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn-accent {
-  background: #b0703b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .btn-zero {
